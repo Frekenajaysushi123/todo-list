@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.todo {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+h1 {
+    text-align: center;
+}
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.task-item label {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+.task-item button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.task-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
